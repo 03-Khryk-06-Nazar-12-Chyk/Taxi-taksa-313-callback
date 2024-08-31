@@ -1,0 +1,304 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links.left {
+    margin-right: auto;
+}
+
+.nav-links.right {
+    margin-left: auto;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.logo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.button {
+    background-color: #f8b400;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #d19b00;
+}
+
+
+
+.name1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero_info {
+    max-width: 600px;
+}
+
+.hero_info_top h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hero_info_top h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.hero_info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.name1 img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.name2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.card_info {
+    padding: 20px;
+}
+
+.card_info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card_info p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #444;
+}
+
+footer .logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer .logo img {
+    width: 60px;
+    height: auto;
+}
+
+footer .phones {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer .phones p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ccc;
+}
+
+footer .button {
+    background-color: #f8b400;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+    text-align: center;
+}
+
+footer .button:hover {
+    background-color: #d19b00;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .phones {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.play{
+    position:relative;
+    top:14px;
+    width:40px;
+    height: 43px;
+}
+
+.play:hover{
+    position:relative;
+    top:14px;
+    width:47px;
+    height: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(225, 225, 65);
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+    
+}
+
+a:focus {
+       position: relative 
+    top 10px;
+
+    color: rgb(111, 26, 26);
+
+
+}
+
+a:hover{
+    background-color: rgb(49, 114, 171);
+}
+
+.apple{
+    position: relative;
+    top:14px;
+    width: 73px;
+}
+
+.apple:hover{
+    position: relative;
+    top:14px;
+    width: 80px;
+}
+
+.app{
+    margin: auto;
+    padding: 20px;
+}
+
+.pm{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h3{
+    text-align:center;
+}
+
+.ap{
+    font-size: 34px;
+    text-align: center;
+}
+
+.tf{
+    text-align: center;
+}
