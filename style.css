@@ -5,6 +5,7 @@ body {
 header {
     background-color: #333;
     padding: 10px 0;
+    width: 100%;
 }
 
 nav {
@@ -14,12 +15,24 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    color: #7e4040;
+}
+
+nav a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #7e4040;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
+    color: #7e4040;
 }
 
 .nav-links.left {
@@ -173,6 +186,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     border-top: 1px solid #444;
+    text-align: center;
 }
 
 footer .logo {
@@ -232,26 +246,26 @@ footer .button:hover {
 .play{
     position:relative;
     top:14px;
-    width:40px;
-    height: 43px;
+    width:34px;
+    height: 37px;
 }
 
 .play:hover{
     position:relative;
     top:14px;
-    width:47px;
-    height: 50px;
+    width:35px;
+    height: 38px;
 }
 
 footer a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     padding: 10px;
     border: 2px solid rgb(225, 225, 65);
     border-radius: 10px;
     position: relative;
     background-color: #fff;
-    
+    text-align: center;
 }
 
 a:focus {
@@ -269,14 +283,14 @@ a:hover{
 
 .apple{
     position: relative;
-    top:14px;
-    width: 73px;
+    top:13px;
+    width: 63px;
 }
 
 .apple:hover{
     position: relative;
-    top:14px;
-    width: 80px;
+    top:13px;
+    width: 64px;
 }
 
 .app{
@@ -301,4 +315,48 @@ h3{
 
 .tf{
     text-align: center;
+}
+
+footer h1{
+    display: flex;
+    text-align: center;
+}
+
+footer p{
+    display: flex;
+    text-align: center;
+}
+
+.gram{
+    position:relative;
+    top:14px;
+    width:36px;
+
+}
+
+.gram:hover{
+    position:relative;
+    top:14px;
+    width:37px;
+
+}
+
+.book{
+      position: relative;
+    top:18px;
+    width: 46px;  
+}
+
+.book:hover{
+    position: relative;
+    top:18px;
+    width: 47px;
+}
+
+.im{
+font-size:20px ;
+}
+
+.bk{
+
 }
